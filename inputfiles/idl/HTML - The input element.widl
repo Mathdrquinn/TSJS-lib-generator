@@ -5,6 +5,7 @@ interface HTMLInputElement : HTMLElement {
   [CEReactions] attribute DOMString alt;
   [CEReactions] attribute DOMString autocomplete;
   [CEReactions] attribute boolean autofocus;
+  [CEReactions] attribute DOMString capture;
   [CEReactions] attribute boolean defaultChecked;
   attribute boolean checked;
   [CEReactions] attribute DOMString dirName;
